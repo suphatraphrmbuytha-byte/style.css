@@ -74,3 +74,11 @@ openMessageBtn.addEventListener("click", () => {
     messagePage.classList.add("active");
 
 });
+const loveBtn = document.getElementById("loveBtn");
+const popup = document.getElementById("lovePopup");
+
+loveBtn.addEventListener("click", () => {
+
+    popup.style.display = "flex";
+
+});
