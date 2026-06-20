@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สำหรับอ้วน ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- หน้าแรก -->
+    <div id="startPage" class="page active">
+        <button id="startBtn">
+            💖 กดเข้าไปดูสิ ที่รักของเค้า 💖
+        </button>
+    </div>
+
+    <!-- นับถอยหลัง -->
+    <div id="countdownPage" class="page">
+        <h1 id="countdown">10</h1>
+    </div>
+
+    <!-- วิดีโอเปิดตัว -->
+    <div id="videoPage" class="page">
+        <video id="introVideo" playsinline>
+            <source src="intro.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- ปุ่มเปิดข้อความ -->
+    <div id="messageButtonPage" class="page">
+        <button id="openMessageBtn">
+            💌 ข้อความจากคนรักของคุณ
+        </button>
+    </div>
+
+    <!-- หน้าข้อความ -->
+    <div id="messagePage" class="page">
+
+        <!-- วิดีโอพื้นหลัง -->
+        <video autoplay loop muted playsinline id="bgVideo">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="message-box">
+
+            <h2>💌 จากที่รักของอ้วน ❤️</h2>
+
+            <p>
+                คิดถึงอ้วนจังเลย<br><br>
+
+                อืมม เค้าก็ไม่มีอะไรมาก เพราะรู้ว่าขี้เกียจอ่าน
+                เลยสรุปมาให้นะ<br><br>
+
+                ช่วงนี้ทะเลาะกันบ่อยมากเลย
+                เค้าไม่อยากทะเลาะกับอ้วนเลยนะ<br><br>
+
+                เค้าไม่ได้ห้ามมีเพื่อน
+                ขอแค่อยากให้อ้วนมีเวลาให้เค้าหน่อย<br><br>
+
+                ปกติเรามีเวลาอยู่ด้วยกันน้อยอยู่แล้ว<br><br>
+
+                ทุกเช้าที่อ้วนไปรอเค้าที่โดม
+                ถึงมันจะไม่ถึง 15 นาที
+                แต่มันมีค่ามากสำหรับเค้า<br><br>
+
+                เพราะมันคือช่วงเวลาที่เราได้อยู่ด้วยกัน<br><br>
+
+                พอตกเย็นเค้าก็อยากคุยกับอ้วนเหมือนเดิม<br><br>
+
+                คุยกับเพื่อนได้เลยนะ เค้าไม่ได้ห้าม<br><br>
+
+                แต่บางครั้งเวลาอ้วนคุยกับเพื่อน
+                อ้วนอาจไม่รู้ตัวว่าไม่ค่อยสนใจเค้าเลย<br><br>
+
+                แล้วสุดท้ายเราก็ทะเลาะกัน<br><br>
+
+                เค้าแค่อยากให้อ้วนสนใจเค้าบ้าง
+                มีเวลาให้เค้าบ้าง แค่นั้นเอง<br><br>
+
+                เพราะสำหรับเค้า...<br><br>
+
+                อ้วนสำคัญมากจริง ๆ ❤️<br><br>
+
+                จุ๊บ ๆ จากที่รักของอ้วน 💋
+            </p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
