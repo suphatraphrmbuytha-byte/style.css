@@ -46,11 +46,12 @@ startBtn.addEventListener("click", () => {
 
             clearInterval(timer);
 
-            hideAllPages();
-            videoPage.classList.add("active");
+          hideAllPages();
+videoPage.classList.add("active");
 
-            introVideo.play();
-
+introVideo.currentTime = 0;
+introVideo.muted = false;
+introVideo.play();
         }
 
     }, 1000);
