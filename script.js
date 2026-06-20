@@ -74,11 +74,19 @@ openMessageBtn.addEventListener("click", () => {
     messagePage.classList.add("active");
 
 });
-const loveBtn = document.getElementById("loveBtn");
-const popup = document.getElementById("lovePopup");
+document.addEventListener("DOMContentLoaded", function () {
 
-loveBtn.addEventListener("click", () => {
+    const loveBtn = document.getElementById("loveBtn");
+    const popup = document.getElementById("lovePopup");
 
-    popup.style.display = "flex";
+    if (loveBtn && popup) {
+
+        loveBtn.addEventListener("click", function () {
+
+            popup.style.display = "flex";
+
+        });
+
+    }
 
 });
